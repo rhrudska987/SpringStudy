@@ -38,6 +38,8 @@ yml생성 및 thymeleaf 이해하기<br>
 <h3>Day3</h3>
 JPA 연관관계 매핑 공부 (1:1, 1:N, N:M)<br>
 <h3>Day4</h3>
-JPQL을 사용하여 멤버 DB에서 정보 찾기<br>
+JPQL을 사용하여 멤버 DB에서 정보 찾기 및 의존성 주입 이해하기<br>
+<h3>Day5</h3>
+Controller, dto 사용이유 이해하기<br>
 </div>
 </details>
