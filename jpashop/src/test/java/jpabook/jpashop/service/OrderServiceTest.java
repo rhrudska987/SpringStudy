@@ -59,8 +59,7 @@ class OrderServiceTest {
         //when
         try {
             orderService.order(member.getId(), book.getId(), orderCount);
-        }
-        catch (NotEnoughStockException e){
+        } catch (NotEnoughStockException e) {
             e.printStackTrace();
         }
 

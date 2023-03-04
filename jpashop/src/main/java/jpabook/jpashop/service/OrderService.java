@@ -26,37 +26,37 @@ public class OrderService {
 
     /**
      * 주문
-     * */
-     @Transactional
-    public Long order(Long memberId, Long itemId, int count){
-         Member member = memberRepository.findOne(memberId);
-         Item item = itemRepository.findOne(itemId);
+     */
+    @Transactional
+    public Long order(Long memberId, Long itemId, int count) {
+        Member member = memberRepository.findOne(memberId);
+        Item item = itemRepository.findOne(itemId);
 
-         Delivery delivery = new Delivery();
-         delivery.setAddress(member.getAddress());
+        Delivery delivery = new Delivery();
+        delivery.setAddress(member.getAddress());
 
-         OrderItem orderItem = OrderItem.createOrderItem(item, item.getPrice(), count);
+        OrderItem orderItem = OrderItem.createOrderItem(item, item.getPrice(), count);
 
-         Order order = Order.createOrder(member, delivery, orderItem);
+        Order order = Order.createOrder(member, delivery, orderItem);
 
-         orderRepository.save(order);
+        orderRepository.save(order);
 
-         return order.getId();
-     }
+        return order.getId();
+    }
 
-     /**
-      * 주문 취소
-      * */
-     public void cancelOrder(Long orderId){
-         Order order = orderRepository.findOne(orderId);
-         order.cancel();
-     }
+    /**
+     * 주문 취소
+     */
+    public void cancelOrder(Long orderId) {
+        Order order = orderRepository.findOne(orderId);
+        order.cancel();
+    }
 
-     /**
-      * 검색
-      * */
-     public List<Order> findOrders(OrderSearch orderSearch){
-         return orderRepository.findAll(orderSearch);
-     }
+    /**
+     * 검색
+     */
+    public List<Order> findOrders(OrderSearch orderSearch) {
+        return orderRepository.findAll(orderSearch);
+    }
 
 }

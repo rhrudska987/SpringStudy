@@ -12,7 +12,8 @@ public class Address {
     private String street;
     private String zipcode;
 
-    protected Address(){} //embeddable은 기본 생성자는 public 또는 protected로 설정해야한다.
+    protected Address() {
+    } //embeddable은 기본 생성자는 public 또는 protected로 설정해야한다.
 
     public Address(String city, String street, String zipcode) {
         this.city = city;
