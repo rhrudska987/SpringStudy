@@ -41,5 +41,7 @@ JPA 연관관계 매핑 공부 (1:1, 1:N, N:M)<br>
 JPQL을 사용하여 멤버 DB에서 정보 찾기 및 의존성 주입 이해하기<br>
 <h3>Day5</h3>
 Controller, dto 사용이유 이해하기<br>
+<h3>Day6</h3>
+변경 감지 및 병합 공부<br>
 </div>
 </details>
