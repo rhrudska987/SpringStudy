@@ -5,79 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77380834-e1e8-4040-b991-98c1b111052f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/baemin/baeminjpa/domain/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/baemin/baeminjpa/domain/AddressStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/baemin/baeminjpa/domain/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/baemin/baeminjpa/domain/Category_Store.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/baemin/baeminjpa/domain/Coupon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/baemin/baeminjpa/domain/CouponStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/baemin/baeminjpa/domain/Delivery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/baemin/baeminjpa/domain/DeliveryStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/baemin/baeminjpa/domain/Heart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/baemin/baeminjpa/domain/HeartStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/baemin/baeminjpa/domain/MenuStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/baemin/baeminjpa/domain/Notice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/baemin/baeminjpa/domain/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/baemin/baeminjpa/domain/OrderStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/baemin/baeminjpa/domain/ReceiveStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/baemin/baeminjpa/domain/ReceiveWay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/baemin/baeminjpa/domain/Review.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/baemin/baeminjpa/domain/ReviewStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/baemin/baeminjpa/domain/Store.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/baemin/baeminjpa/domain/StoreMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/baemin/baeminjpa/domain/StoreStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/baemin/baeminjpa/domain/UserStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/baemin/baeminjpa/domain/User_Coupon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/controller/BookForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/controller/BookForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/controller/ItemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/controller/MemberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/controller/MemberForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/controller/MemberForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/Delivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/Delivery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/DeliveryStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/DeliveryStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/OrderItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/item/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/item/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/exception/NotEnoughStockException.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/exception/NotEnoughStockException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/repository/ItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/repository/ItemRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/repository/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/repository/MemberRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/repository/OrderRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/service/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/service/ItemService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/service/MemberService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap-grid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap-reboot.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/jumbotron-narrow.css" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/jumbotron-narrow.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/static/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/js/bootstrap.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/static/js/bootstrap.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/static/js/bootstrap.bundle.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/static/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/static/js/bootstrap.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/js/bootstrap.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/static/js/bootstrap.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/js/bootstrap.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/templates/fragments/bodyHeader.html" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/templates/fragments/bodyHeader.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/templates/fragments/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/templates/fragments/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/templates/fragments/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/templates/fragments/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/templates/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/templates/hello.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/templates/items/createItemForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/templates/items/createItemForm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/templates/items/itemList.html" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/templates/items/itemList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/templates/items/updateItemForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/templates/items/updateItemForm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/templates/members/createMemberForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/templates/members/createMemberForm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/templates/members/memberList.html" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/templates/members/memberList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/templates/order/orderForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/templates/order/orderForm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/test/java/jpabook/jpashop/service/MemberServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/test/java/jpabook/jpashop/service/MemberServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/test/java/jpabook/jpashop/service/OrderServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/test/java/jpabook/jpashop/service/OrderServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/baemin/baeminjpa/BaeminJpaApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/baemin/baeminjpa/domain/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/baemin/baeminjpa/domain/AddressStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/baemin/baeminjpa/domain/BaseTimeEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/baemin/baeminjpa/domain/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/baemin/baeminjpa/domain/Category_Store.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/baemin/baeminjpa/domain/Coupon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/baemin/baeminjpa/domain/CouponStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/baemin/baeminjpa/domain/Delivery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/baemin/baeminjpa/domain/DeliveryStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/baemin/baeminjpa/domain/Heart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/baemin/baeminjpa/domain/HeartStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/baemin/baeminjpa/domain/MenuStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/baemin/baeminjpa/domain/Notice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/baemin/baeminjpa/domain/NoticeStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/baemin/baeminjpa/domain/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/baemin/baeminjpa/domain/OrderStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/baemin/baeminjpa/domain/ReceiveStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/baemin/baeminjpa/domain/ReceiveWay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/baemin/baeminjpa/domain/Review.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/baemin/baeminjpa/domain/ReviewStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/baemin/baeminjpa/domain/Store.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/baemin/baeminjpa/domain/StoreMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/baemin/baeminjpa/domain/StoreStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/baemin/baeminjpa/domain/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/baemin/baeminjpa/domain/UserStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/baemin/baeminjpa/domain/User_Coupon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/baemin/baeminjpa/BaeminJpaApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,6 +104,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -162,7 +132,9 @@
       <option name="presentableId" value="Default" />
       <updated>1677920346890</updated>
       <workItem from="1677920350043" duration="13589000" />
-      <workItem from="1677934564415" duration="126000" />
+      <workItem from="1677934564415" duration="467000" />
+      <workItem from="1677992910980" duration="2312000" />
+      <workItem from="1677995288812" duration="676000" />
     </task>
     <servers />
   </component>
@@ -179,5 +151,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
