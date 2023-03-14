@@ -55,9 +55,13 @@ Controller, dto 사용이유 이해하기<br>
 
 
 ## 2. 실전! 스프링 부트와 JPA 활용2-API 개발과 성능 최적화
+
+<details>
+<summary>개발일지</summary>
+<div markdown="1">
 <h3>Day1</h3>
 멤버 등록, 조회<br>
 <h3>Day2</h3>
 InitDb 생성<br>
 </div>
-</div>
+</details>
