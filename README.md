@@ -63,5 +63,7 @@ Controller, dto 사용이유 이해하기<br>
 멤버 등록, 조회<br>
 <h3>Day2</h3>
 InitDb 생성<br>
+<h3>Day3</h3>
+주문 정보를 조회하는 방법1 - 엔티티 외부 노출<br>
 </div>
 </details>
