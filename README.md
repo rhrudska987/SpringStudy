@@ -60,10 +60,12 @@ Controller, dto 사용이유 이해하기<br>
 <summary>개발일지</summary>
 <div markdown="1">
 <h3>Day1</h3>
-멤버 등록, 조회<br>
+API 개발 기본<br>
 <h3>Day2</h3>
-InitDb 생성<br>
+API 개발 고급 - 준비<br>
 <h3>Day3</h3>
 주문 정보를 조회하는 방법1 - 엔티티 외부 노출<br>
+<h3>Day4</h3>
+API개발 고급 - 지연 로딩과 조회 성능 최적화<br>
 </div>
 </details>
