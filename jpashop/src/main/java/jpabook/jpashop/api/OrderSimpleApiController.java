@@ -16,6 +16,13 @@ import java.time.LocalDateTime;
 import java.util.List;
 import java.util.stream.Collectors;
 
+/**
+ * XToOne관계(ManyToOne, OneToOne)만
+ * Order 조회
+ * Order에서 Member와 연관(다대일 관계)
+ * Order에서 Delivery와 연관(일대일 관계)
+ */
+
 @RestController
 @RequiredArgsConstructor
 public class OrderSimpleApiController {
