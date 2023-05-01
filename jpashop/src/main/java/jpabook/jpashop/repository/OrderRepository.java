@@ -60,6 +60,29 @@ public class OrderRepository {
     }
 
     public List<Order> findAllWithMemberDelivery() {
-        return em.createQuery("select o from Order o join fetch o.member m join fetch o.delivery d", Order.class).getResultList();
+        return em.createQuery("select o from Order o " +
+                "join fetch o.member m " +
+                "join fetch o.delivery d", Order.class)
+                .getResultList();
+    }
+
+    public List<Order> findAllWithMemberDelivery(int offset, int limit) {
+        return em.createQuery("select o from Order o " +
+                        "join fetch o.member m " +
+                        "join fetch o.delivery d", Order.class)
+                .setFirstResult(offset)
+                .setMaxResults(limit)
+                .getResultList();
+    }
+
+    public List<Order> findAllWithItem() { //distinct는 db의 distinct +
+        return em.createQuery("select distinct o from Order o " +
+                "join fetch o.member m " +  //member와 delivery는 ToOne관계이므로 join fetch 사용 무방
+                "join fetch o.delivery d " +
+                "join fetch o.orderItems oi " + //OneTo관계 이므로
+                "join fetch oi.item i", Order.class)
+                .setFirstResult(1)
+                .setMaxResults(100)
+                .getResultList(); //0을 버리고 처음부터 -> 결과가 한개여야함
     }
 }
